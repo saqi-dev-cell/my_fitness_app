@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#ffffff', // Enhanced dark theme
+    backgroundColor: '#ffffff', 
     paddingHorizontal: 20,
     paddingTop: 30,
   },
@@ -18,13 +18,13 @@ const styles = StyleSheet.create({
   subtitle: {
     fontSize: 20,
     fontWeight: '500',
-    color: '#606060', // Softer subtitle color for elegance
+    color: '#606060', 
     textAlign: 'center',
     marginBottom: 20,
     fontFamily: 'Roboto',
   },
   card: {
-    backgroundColor: '#f5f5f5', // Sleek card background
+    backgroundColor: '#f5f5f5', 
     borderRadius: 20,
     padding: 35,
     marginBottom: 20,
@@ -50,17 +50,17 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'rgba(0, 0, 0, 0.5)', // Semi-transparent background
-    zIndex: 10, // Ensures it overlays other content
+    backgroundColor: 'rgba(0, 0, 0, 0.5)', 
+    zIndex: 10, 
   },
   
   modalContent: {
     backgroundColor: '#1a1a1a',
     padding: 20,
     borderRadius: 12,
-    width: '85%',  // Adjust width of the modal content
-    maxHeight: '80%', // Prevent the modal from covering the entire screen
-    overflowY: 'scroll', // Allows scrolling if content overflows
+    width: '85%',  
+    maxHeight: '80%', 
+    overflowY: 'scroll', 
   },
   
   modalTitle: {
@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
     borderColor: '#f5f5f5',
   },
   
-  // Add this to your styles (styles/globalStyles.js)
+  
 searchInput: {
   height: 40,
   borderColor: '#ccc',
